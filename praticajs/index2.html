@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pratica 2</title>
+</head>
+<body>
+    <button onclick="somar()" >+</button>
+    <button onclick="diminuir()" >-</button>
+    <button onclick="multiplicar()" >*</button>
+    <button onclick="dividir()" >/</button>
+
+    <div id="output"></div>
+
+    <script>
+
+        var n1 = prompt('Digite um número')
+        n1 = parseFloat(n1)
+        escrever()
+
+        function escrever() {
+          var output = document.querySelector('#output');
+          output.innerHTML = n1
+        }
+
+        function somar() {
+            var n = prompt('Digite um numero')
+            n = parseFloat(n)
+            n1 = n1 + n
+            escrever()
+        }
+    </script>
+
+</body>
+</html>

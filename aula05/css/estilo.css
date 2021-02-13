@@ -1,0 +1,64 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+.section-1 {
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.section-1 > .conteudo {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.section-1 > .conteudo > h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 15px rgba(0,0,0,0.9);
+}
+
+.section-1 > .conteudo > h2 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 15px rgba(0,0,0,0.9);
+}
+
+.section-2 {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-2 > article {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 1s;
+}
+
+.section-2 > article:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  border: 1px solid black;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0,  0.5);
+}
+
+.section-2 > article > i {
+  font-size: 5em;
+  color: #007bff;
+}
+
+.section-2 > article > .titulo {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.section-2 > article > .descricao {
+  font-size: 1.5em;
+}

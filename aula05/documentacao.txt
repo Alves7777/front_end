@@ -1,0 +1,5 @@
+Cor primária: #1B64AE
+Cor secundária: #dd3069
+
+Fonte Titulo: Russo One 
+Fonte Texto: Roboto

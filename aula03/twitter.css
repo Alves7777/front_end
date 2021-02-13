@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.lado-azul {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: table;
+  background-color: #71c9f8;
+}
+
+.lado-branco {
+  width: 50%;
+  display: inline;
+  float: left;
+}
+
+.lado-azul > .textos {
+  display: table-cell;
+  width: 40%;
+  padding-left: 30%;
+  vertical-align: middle;
+}
+
+.lado-azul > .textos > p {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.lado-branco > .botoes {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.botoes > button {
+  margin-top: 16px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.botao-azul {
+  background-color: #1da1f2;
+  color: #ffffff;
+  border: 0;
+}
+
+.botao-azul:hover {
+  background-color: #4ea0cc;
+}
+
+.botao-branco {
+  background-color: #ffffff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+}
+
+.form-login {
+  height: 100px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.login-input, .login-button {
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
+
+.login-input {
+  background-color: #dddddd;
+  height: 50px;
+  border-bottom: 1px solid #333333;
+}
+
+.login-input > label {
+  font-size: 10pt;
+}
+
+.login-input > input {
+  background-color: transparent;
+  border: 0;
+  font-size: 14pt;
+  margin-top: 10px;
+  vertical-align: bottom;
+}
+
+.login-button > button {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px;
+  height: 50px;
+  border: 1px solid #1da1f2;
+  background-color: #ffffff;
+  color: #1da1f2;
+}

@@ -1,0 +1,15 @@
+.btn-entrar {
+  background-color: red;
+  color: white;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.btn-entrar:hover {
+  background-color: #aa0000;
+}
+
+.link-senha {
+  text-decoration: none;
+}

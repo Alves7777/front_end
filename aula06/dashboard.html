@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Revisão Front End</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">DASHBOARD</a>
+
+        <input placeholder="Buscar...">
+    </nav>
+
+    <section class="container-fluid pt-3" style="background-color: #DDD;">
+
+      <div id="erro" class="alert alert-danger h2" style="display: none;">
+          <strong>Ops</strong> Vc não tem permissão
+
+          <button onclick="fecharErro()">ok</button>
+      </div>
+
+      <div class="alert alert-info h2">
+          <strong>50</strong> Novos usuários
+          <a href="#">Ver mais</a>
+      </div>
+
+      <div class="card">
+        <div class="card-body h2">
+          <strong>+10</strong> Visualizações
+          <br>
+          <span class="badge badge-info">Organicas</span>
+          <span class="badge badge-primary">Facebook</span>
+        </div>
+      </div>
+
+      <button onclick="teste()" class="btn mt-2 btn-outline-primary btn-block">
+        Relatórios
+      </button>
+    </section>
+
+    <script src="eventos.js"></script>
+  </body>
+</html>

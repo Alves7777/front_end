@@ -1,0 +1,61 @@
+body {
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.topo {
+  text-align: right;
+}
+
+.topo > a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.topo > a:hover {
+  text-decoration: underline;
+  color: #444444;
+}
+
+.login {
+  border-radius: 3px; /* arrendondar a borda */
+  background-color: #2e94ff; /* cor do fundo */
+  color: #ffffff; /* cor das letras */
+  border: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.principal {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.principal > img {
+  width: 300px;
+}
+
+.principal > input {
+  margin-top: 20px;
+  height: 40px;
+  width: 450px;
+  border-radius: 20px;
+  border: 1px solid #bbbbbb;
+}
+
+.principal > input:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.principal > button {
+  margin-top: 20px;
+  background-color: #eeeeee;
+  border: 0;
+  padding: 10px;
+}
+
+.principal > button:hover {
+  border: 1px solid #bbbbbb;
+}
